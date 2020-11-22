@@ -1,0 +1,38 @@
+#Creamos el script para la sintesis estructural mediante yosis
+
+#Archivo principal
+read_verilog Transaction_COND.v
+hierarchy -check -top Transaction_COND
+
+#Modulo top
+proc; opt; fsm; opt; memory; opt
+
+#Mapeando a la libreria interna
+techmap; opt
+
+
+#Mapeando los flip-flops
+dfflibmap -liberty cmos_cells.lib
+
+#Mapeando lalogica
+abc -liberty cmos_cells.lib
+
+
+
+clean
+
+write_verilog Transaction_STRUC.v
+
+
+
+
+
+
+
+
+
+
+
+
+
+

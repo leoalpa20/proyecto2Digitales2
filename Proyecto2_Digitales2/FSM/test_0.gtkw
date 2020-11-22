@@ -1,0 +1,78 @@
+[*]
+[*] GTKWave Analyzer v3.3.86 (w)1999-2017 BSI
+[*] Fri Nov  6 12:10:57 2020
+[*]
+[dumpfile] "/mnt/d/Users/Jonathan/DESKTOP/II2020/CircuitosDigitalesII/proyecto2/src/FSM/generator.vcd"
+[dumpfile_mtime] "Fri Nov  6 12:08:07 2020"
+[dumpfile_size] 27996
+[savefile] "/mnt/d/Users/Jonathan/DESKTOP/II2020/CircuitosDigitalesII/proyecto2/src/FSM/test_0.gtkw"
+[timestart] 0
+[size] 1366 705
+[pos] 0 23
+*-13.000000 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] testBench.
+[sst_width] 233
+[signals_width] 238
+[sst_expanded] 1
+[sst_vpaned_height] 197
+@28
+testBench.clk
+testBench.init
+testBench.reset
+[color] 2
+testBench.MF_empty_umbral_in[2:0]
+[color] 2
+testBench.VC_empty_umbral_in[2:0]
+[color] 2
+testBench.D_empty_umbral_in[2:0]
+[color] 2
+testBench.MF_full_umbral_in[2:0]
+[color] 2
+testBench.VC_full_umbral_in[2:0]
+[color] 2
+testBench.D_full_umbral_in[2:0]
+[color] 7
+testBench.MF_empty_sig_in
+[color] 7
+testBench.VC0_empty_sig_in
+[color] 7
+testBench.VC1_empty_sig_in
+[color] 7
+testBench.D0_empty_sig_in
+[color] 7
+testBench.D1_empty_sig_in
+[color] 7
+testBench.MF_err_sig_in
+[color] 5
+testBench.MF_empty_umbral_out_c[2:0]
+testBench.SYNTH.MF_empty_umbral_out_e[2:0]
+[color] 5
+testBench.VC_empty_umbral_out_c[2:0]
+testBench.SYNTH.VC_empty_umbral_out_e[2:0]
+[color] 5
+testBench.D_empty_umbral_out_c[2:0]
+testBench.SYNTH.D_empty_umbral_out_e[2:0]
+[color] 5
+testBench.MF_full_umbral_out_c[2:0]
+testBench.SYNTH.MF_full_umbral_out_e[2:0]
+[color] 5
+testBench.VC_full_umbral_out_c[2:0]
+testBench.SYNTH.VC_full_umbral_out_e[2:0]
+[color] 5
+testBench.D_full_umbral_out_c[2:0]
+testBench.SYNTH.D_full_umbral_out_e[2:0]
+[color] 3
+testBench.reset_out
+[color] 3
+testBench.idle_out_c
+testBench.SYNTH.idle_out_e
+[color] 3
+testBench.active_out_c
+testBench.SYNTH.active_out_e
+[color] 3
+testBench.error_out_c
+testBench.SYNTH.error_out_e
+@22
+testBench.COND.nxt_state[4:0]
+[pattern_trace] 1
+[pattern_trace] 0

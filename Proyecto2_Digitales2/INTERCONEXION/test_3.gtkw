@@ -1,0 +1,186 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Wed Nov 18 11:12:09 2020
+[*]
+[dumpfile] "/home/jonathan/Desktop/Proyecto2_Digitales2/Proyecto2_Digitales2/INTERCONEXION/Transaction.vcd"
+[dumpfile_mtime] "Wed Nov 18 11:06:23 2020"
+[dumpfile_size] 508216
+[savefile] "/home/jonathan/Desktop/Proyecto2_Digitales2/Proyecto2_Digitales2/INTERCONEXION/test_0.gtkw"
+[timestart] 0
+[size] 1366 662
+[pos] 0 27
+*-10.000000 2227 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] Transaction_tb.
+[treeopen] Transaction_tb.Transaction_COND_.
+[treeopen] Transaction_tb.Transaction_STRUC_.
+[sst_width] 233
+[signals_width] 246
+[sst_expanded] 1
+[sst_vpaned_height] 191
+@28
+Transaction_tb.clk
+@22
+Transaction_tb.data_in[5:0]
+@420
+Transaction_tb.t_Transaction_.idx
+@200
+-FSM
+@28
+Transaction_tb.init
+Transaction_tb.reset
+Transaction_tb.Transaction_COND_.fsm_COND.MF_empty_umbral_in[1:0]
+Transaction_tb.Transaction_COND_.fsm_COND.D_empty_umbral_in[1:0]
+Transaction_tb.Transaction_COND_.fsm_COND.VC_empty_umbral_in[2:0]
+Transaction_tb.Transaction_COND_.fsm_COND.MF_full_umbral_in[1:0]
+Transaction_tb.Transaction_COND_.fsm_COND.D_full_umbral_in[1:0]
+Transaction_tb.Transaction_COND_.fsm_COND.VC_full_umbral_in[2:0]
+Transaction_tb.Transaction_COND_.fsm_COND.MF_empty_sig_in
+Transaction_tb.Transaction_COND_.fsm_COND.VC0_empty_sig_in
+Transaction_tb.Transaction_COND_.fsm_COND.VC1_empty_sig_in
+Transaction_tb.Transaction_COND_.fsm_COND.D0_empty_sig_in
+Transaction_tb.Transaction_COND_.fsm_COND.D1_empty_sig_in
+Transaction_tb.Transaction_COND_.fsm_COND.MF_err_sig_in
+Transaction_tb.Transaction_COND_.fsm_COND.MF_empty_umbral_out_c[1:0]
+Transaction_tb.Transaction_STRUC_.fsm_COND.MF_empty_umbral_out_es[1:0]
+Transaction_tb.Transaction_COND_.fsm_COND.D_empty_umbral_out_c[1:0]
+Transaction_tb.Transaction_STRUC_.fsm_COND.D_empty_umbral_out_es[1:0]
+Transaction_tb.Transaction_COND_.fsm_COND.VC_empty_umbral_out_c[2:0]
+Transaction_tb.Transaction_STRUC_.fsm_COND.VC_empty_umbral_out_es[2:0]
+Transaction_tb.Transaction_COND_.fsm_COND.MF_full_umbral_out_c[1:0]
+Transaction_tb.Transaction_STRUC_.fsm_COND.MF_full_umbral_out_es[1:0]
+Transaction_tb.Transaction_COND_.fsm_COND.D_full_umbral_out_c[1:0]
+Transaction_tb.Transaction_STRUC_.fsm_COND.D_full_umbral_out_es[1:0]
+Transaction_tb.Transaction_COND_.fsm_COND.VC_full_umbral_out_c[2:0]
+Transaction_tb.Transaction_STRUC_.fsm_COND.VC_full_umbral_out_es[2:0]
+Transaction_tb.Transaction_COND_.fsm_COND.reset_out
+Transaction_tb.Transaction_COND_.fsm_COND.idle_out_c
+Transaction_tb.Transaction_STRUC_.fsm_COND.idle_out_es
+Transaction_tb.Transaction_COND_.fsm_COND.active_out_c
+Transaction_tb.Transaction_STRUC_.fsm_COND.active_out_es
+Transaction_tb.Transaction_COND_.fsm_COND.error_out_c
+Transaction_tb.Transaction_STRUC_.fsm_COND.error_out_es
+@22
+Transaction_tb.Transaction_COND_.fsm_COND.nxt_state[4:0]
+@200
+-MF
+@28
+Transaction_tb.Transaction_COND_.FIFO_COND_MF.buffer_empty[1:0]
+Transaction_tb.Transaction_COND_.FIFO_COND_MF.buffer_full[1:0]
+Transaction_tb.Transaction_COND_.FIFO_COND_MF.push
+Transaction_tb.Transaction_COND_.FIFO_COND_MF.pop
+@22
+Transaction_tb.Transaction_COND_.FIFO_COND_MF.data_in[5:0]
+@c00022
+Transaction_tb.Transaction_COND_.FIFO_COND_MF.data_out_c[5:0]
+@28
+(0)Transaction_tb.Transaction_COND_.FIFO_COND_MF.data_out_c[5:0]
+(1)Transaction_tb.Transaction_COND_.FIFO_COND_MF.data_out_c[5:0]
+(2)Transaction_tb.Transaction_COND_.FIFO_COND_MF.data_out_c[5:0]
+(3)Transaction_tb.Transaction_COND_.FIFO_COND_MF.data_out_c[5:0]
+(4)Transaction_tb.Transaction_COND_.FIFO_COND_MF.data_out_c[5:0]
+(5)Transaction_tb.Transaction_COND_.FIFO_COND_MF.data_out_c[5:0]
+@1401200
+-group_end
+@22
+Transaction_tb.Transaction_STRUC_.FIFO_COND_MF.data_out_es[5:0]
+@28
+Transaction_tb.Transaction_COND_.FIFO_COND_MF.error_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_MF.error_es
+Transaction_tb.Transaction_COND_.FIFO_COND_MF.almost_empty_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_MF.almost_empty_es
+Transaction_tb.Transaction_COND_.FIFO_COND_MF.almost_full_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_MF.almost_full_es
+Transaction_tb.Transaction_COND_.FIFO_COND_MF.empty_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_MF.empty_es
+@200
+-VC0
+@28
+Transaction_tb.Transaction_COND_.FIFO_COND_VC0.push
+Transaction_tb.Transaction_COND_.reset_out
+Transaction_tb.Transaction_COND_.FIFO_COND_VC0.pop
+@22
+Transaction_tb.Transaction_COND_.FIFO_COND_VC0.data_in[5:0]
+Transaction_tb.Transaction_COND_.FIFO_COND_VC0.data_out_c[5:0]
+Transaction_tb.Transaction_STRUC_.FIFO_COND_VC0.data_out_es[5:0]
+@28
+Transaction_tb.Transaction_COND_.FIFO_COND_VC0.error_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_VC0.error_es
+Transaction_tb.Transaction_COND_.FIFO_COND_VC0.almost_empty_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_VC0.almost_empty_es
+Transaction_tb.Transaction_COND_.FIFO_COND_VC0.almost_full_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_VC0.almost_full_es
+Transaction_tb.Transaction_COND_.FIFO_COND_VC0.empty_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_VC0.empty_es
+@200
+-VC1
+@28
+Transaction_tb.Transaction_COND_.FIFO_COND_VC1.push
+Transaction_tb.Transaction_COND_.FIFO_COND_VC1.pop
+@22
+Transaction_tb.Transaction_COND_.FIFO_COND_VC1.data_in[5:0]
+Transaction_tb.Transaction_COND_.FIFO_COND_VC1.data_out_c[5:0]
+Transaction_tb.Transaction_STRUC_.FIFO_COND_VC1.data_out_es[5:0]
+@28
+Transaction_tb.Transaction_COND_.FIFO_COND_VC1.error_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_VC1.error_es
+Transaction_tb.Transaction_COND_.FIFO_COND_VC1.almost_empty_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_VC1.almost_empty_es
+Transaction_tb.Transaction_COND_.FIFO_COND_VC1.almost_full_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_VC1.almost_full_es
+Transaction_tb.Transaction_COND_.FIFO_COND_VC1.empty_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_VC1.empty_es
+@c00022
+Transaction_tb.Transaction_COND_.data_d[5:0]
+@28
+(0)Transaction_tb.Transaction_COND_.data_d[5:0]
+(1)Transaction_tb.Transaction_COND_.data_d[5:0]
+(2)Transaction_tb.Transaction_COND_.data_d[5:0]
+(3)Transaction_tb.Transaction_COND_.data_d[5:0]
+(4)Transaction_tb.Transaction_COND_.data_d[5:0]
+(5)Transaction_tb.Transaction_COND_.data_d[5:0]
+@1401200
+-group_end
+@200
+-D0
+@28
+Transaction_tb.Transaction_COND_.FIFO_COND_D0.buffer_empty[1:0]
+Transaction_tb.Transaction_COND_.FIFO_COND_D0.buffer_full[1:0]
+Transaction_tb.Transaction_COND_.FIFO_COND_D0.push
+Transaction_tb.Transaction_COND_.FIFO_COND_D0.pop
+@22
+Transaction_tb.Transaction_COND_.FIFO_COND_D0.data_in[5:0]
+Transaction_tb.Transaction_COND_.FIFO_COND_D0.data_out_c[5:0]
+Transaction_tb.Transaction_STRUC_.FIFO_COND_D0.data_out_es[5:0]
+@28
+Transaction_tb.Transaction_COND_.FIFO_COND_D0.error_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_D0.error_es
+Transaction_tb.Transaction_COND_.FIFO_COND_D0.almost_empty_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_D0.almost_empty_es
+Transaction_tb.Transaction_COND_.FIFO_COND_D0.almost_full_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_D0.almost_full_es
+Transaction_tb.Transaction_COND_.FIFO_COND_D0.empty_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_D0.empty_es
+@200
+-D1
+@28
+Transaction_tb.Transaction_COND_.FIFO_COND_D1.buffer_empty[1:0]
+@29
+Transaction_tb.Transaction_COND_.FIFO_COND_D1.buffer_full[1:0]
+@28
+Transaction_tb.Transaction_COND_.FIFO_COND_D1.push
+Transaction_tb.Transaction_COND_.FIFO_COND_D1.pop
+@22
+Transaction_tb.Transaction_COND_.FIFO_COND_D1.data_in[5:0]
+Transaction_tb.Transaction_COND_.FIFO_COND_D1.data_out_c[5:0]
+Transaction_tb.Transaction_STRUC_.FIFO_COND_D1.data_out_es[5:0]
+@28
+Transaction_tb.Transaction_COND_.FIFO_COND_D1.error_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_D1.error_es
+Transaction_tb.Transaction_COND_.FIFO_COND_D1.almost_empty_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_D1.almost_empty_es
+Transaction_tb.Transaction_COND_.FIFO_COND_D1.almost_full_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_D1.almost_full_es
+Transaction_tb.Transaction_COND_.FIFO_COND_D1.empty_c
+Transaction_tb.Transaction_STRUC_.FIFO_COND_D1.empty_es
+[pattern_trace] 1
+[pattern_trace] 0
